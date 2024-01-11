@@ -3,6 +3,12 @@ OrchardCore module: Rule-based validation of form module
 
 # Nuget
 
+[![NuGet](https://img.shields.io/nuget/v/YuSheng.OrchardCore.Form.Validation.svg)](https://www.nuget.org/packages/YuSheng.OrchardCore.Form.Validation)
+
+```
+dotnet add package YuSheng.OrchardCore.Form.Validation --version 0.0.1
+
+```
 
 # Usage
 
