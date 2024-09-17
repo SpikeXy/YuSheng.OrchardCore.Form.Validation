@@ -80,7 +80,7 @@ namespace YuSheng.OrchardCore.Form.Validation
                     options.GenerateDefaultValidationRules(services);
             });
 
-            services.AddScoped<IDataMigration, Migrations>();
+            //services.AddScoped<IDataMigration, Migrations>();
         }
     }
 }

@@ -1,33 +1,49 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-	  <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+	<PropertyGroup>
+		<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+		<TargetFramework>net8.0</TargetFramework>
+		<Title>YuSheng.OrchardCore.Form.Validation</Title>
+		<Description>
+			Provides form validation.
+		</Description>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Version>0.0.2</Version>
+		<Authors>spike</Authors>
+		<Company>yushengbyte</Company>
+		<Copyright>spike @ 2024</Copyright>
+		<PackageProjectUrl>https://github.com/SpikeXy/YuSheng.OrchardCore.Form.Validation</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>horse-face-front-view-sketch.png</PackageIcon>
+		<RepositoryUrl>https://github.com/SpikeXy/YuSheng.OrchardCore.Form.Validation</RepositoryUrl>
+		<PackageTags>orchardcore,form,validation</PackageTags>
+	</PropertyGroup>
 
-	  <Nullable>enable</Nullable>
 
-	  <PackageIcon>horse-face-front-view-sketch.png</PackageIcon>
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
 
-	  <RepositoryUrl>https://github.com/SpikeXy/YuSheng.OrchardCore.Form.Validation</RepositoryUrl>
 
-	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-  </PropertyGroup>
+	<ItemGroup>
+		<None Include="..\horse-face-front-view-sketch.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 
   <ItemGroup>
-    <None Include="horse-face-front-view-sketch.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="OrchardCore.ContentManagement" Version="1.8.1" />
-    <PackageReference Include="OrchardCore.ContentManagement.Abstractions" Version="1.8.1" />
-    <PackageReference Include="OrchardCore.ContentManagement.Display" Version="1.8.1" />
-    <PackageReference Include="OrchardCore.ContentManagement.GraphQL" Version="1.8.1" />
-    <PackageReference Include="OrchardCore.Module.Targets" Version="1.8.1" />
-    <PackageReference Include="OrchardCore.Workflows" Version="1.8.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="OrchardCore.ContentManagement" Version="2.0.0" />
+    <PackageReference Include="OrchardCore.ContentManagement.Abstractions" Version="2.0.0" />
+    <PackageReference Include="OrchardCore.ContentManagement.Display" Version="2.0.0" />
+    <PackageReference Include="OrchardCore.ContentManagement.GraphQL" Version="2.0.0" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="2.0.0" />
+    <PackageReference Include="OrchardCore.Workflows" Version="2.0.0" />
   </ItemGroup>
 
 </Project>

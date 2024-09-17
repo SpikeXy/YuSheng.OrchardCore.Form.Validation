@@ -2,9 +2,9 @@ using OrchardCore.Modules.Manifest;
 
 [assembly: Module(
     Name = "YuSheng.OrchardCore.Form",
-    Author = ManifestConstants.OrchardCoreTeam,
-    Website = ManifestConstants.OrchardCoreWebsite,
-    Version = ManifestConstants.OrchardCoreVersion
+    Author = "spike",
+    Website = "",
+    Version = "0.0.2"
 )]
 
 [assembly: Feature(
