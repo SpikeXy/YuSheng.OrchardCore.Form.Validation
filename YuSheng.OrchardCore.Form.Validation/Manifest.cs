@@ -4,7 +4,7 @@ using OrchardCore.Modules.Manifest;
     Name = "YuSheng.OrchardCore.Form",
     Author = "spike",
     Website = "",
-    Version = "0.0.2"
+    Version = "0.0.3"
 )]
 
 [assembly: Feature(

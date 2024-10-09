@@ -8,7 +8,7 @@
 			Provides form validation.
 		</Description>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Version>0.0.2</Version>
+		<Version>0.0.3</Version>
 		<Authors>spike</Authors>
 		<Company>yushengbyte</Company>
 		<Copyright>spike @ 2024</Copyright>
@@ -38,12 +38,12 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="OrchardCore.ContentManagement" Version="2.0.0" />
-    <PackageReference Include="OrchardCore.ContentManagement.Abstractions" Version="2.0.0" />
-    <PackageReference Include="OrchardCore.ContentManagement.Display" Version="2.0.0" />
-    <PackageReference Include="OrchardCore.ContentManagement.GraphQL" Version="2.0.0" />
-    <PackageReference Include="OrchardCore.Module.Targets" Version="2.0.0" />
-    <PackageReference Include="OrchardCore.Workflows" Version="2.0.0" />
+    <PackageReference Include="OrchardCore.ContentManagement" Version="2.0.2" />
+    <PackageReference Include="OrchardCore.ContentManagement.Abstractions" Version="2.0.2" />
+    <PackageReference Include="OrchardCore.ContentManagement.Display" Version="2.0.2" />
+    <PackageReference Include="OrchardCore.ContentManagement.GraphQL" Version="2.0.2" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="2.0.2" />
+    <PackageReference Include="OrchardCore.Workflows" Version="2.0.2" />
   </ItemGroup>
 
 </Project>
